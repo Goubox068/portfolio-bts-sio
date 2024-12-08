@@ -1,0 +1,17 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #007BFF; /* Couleur du titre */
+}
+
+p {
+    margin: 10px 0;
+}
