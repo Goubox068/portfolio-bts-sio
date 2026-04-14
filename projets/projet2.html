@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>AP3 - IFIDE - FOOS Constant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../favicon.png">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <h1>FOOS Constant</h1>
+        </div>
+        <ul class="sidebar-menu">
+            <li><a href="../index.html#profil"><span class="menu-icon">|</span> Profil</a></li>
+            <li><a href="../index.html#formations"><span class="menu-icon">|</span> Formations</a></li>
+            <li><a href="../index.html#experiences"><span class="menu-icon">|</span> Expériences</a></li>
+            <li><a href="../index.html#projets" class="active"><span class="menu-icon">|</span> Projets</a></li>
+            <li><a href="../index.html#competences"><span class="menu-icon">|</span> Compétences</a></li>
+            <li><a href="../index.html#veille"><span class="menu-icon">|</span> Veille Technologique</a></li>
+            <li><a href="../index.html#contact"><span class="menu-icon">|</span> Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <div class="project-page">
+            <div class="project-header">
+                <a href="../index.html#projets" class="btn-back">← Retour aux projets</a>
+                <h1>AP3 – IFIDE : SI inter-sites hautement disponible</h1>
+                <p class="project-subtitle">Création d'une infrastructure sécurisée entre Strasbourg et Mulhouse avec VPN site-à-site, Active Directory redondé, DFS/DFSR et sauvegardes iSCSI.</p>
+            </div>
+
+            <section class="project-section">
+                <div class="ap-section-title"><span class="title-icon">ℹ️</span> Contexte du projet</div>
+                <div class="section-content">
+                    <div class="context-top-grid">
+                        <div class="context-top-card">
+                            <div class="ctx-label">📍 Lieu</div>
+                            <div class="ctx-value">IFIDE Strasbourg-Eckbolsheim + nouveau site IFIDE Mulhouse</div>
+                        </div>
+                        <div class="context-top-card">
+                            <div class="ctx-label">📅 Période</div>
+                            <div class="ctx-value">11/09/2025 au 30/11/2025 – durée 8 semaines</div>
+                        </div>
+                        <div class="context-top-card">
+                            <div class="ctx-label">🏫 Formation</div>
+                            <div class="ctx-value">BTS SIO SISR – AP3 (cahier des charges + annexes 1 à 8)</div>
+                        </div>
+                    </div>
+
+                    <div class="context-info-row">
+                        <div class="ctx-row-label">⚠️ Pourquoi ce projet ?</div>
+                        <p class="ctx-row-value">IFIDE ouvre un second établissement à Mulhouse. La DSI souhaite un SI unifié entre les deux sites, avec haute disponibilité des services, accès aux données des deux côtés et sécurisation conforme aux recommandations ANSSI.</p>
+                    </div>
+
+                    <div class="context-info-row">
+                        <div class="ctx-row-label">👤 Notre mission</div>
+                        <p class="ctx-row-value">En trinôme, nous avons répondu à l'appel d'offres : conception réseau, maquette complète multi-sites, implémentation des services Windows, sécurisation et production des livrables techniques.</p>
+                    </div>
+
+                    <div class="context-info-row">
+                        <div class="ctx-row-label">🏢 À propos d'IFIDE</div>
+                        <p class="ctx-row-value">IFIDE SUP'FORMATION est un centre de formation reconnu en Alsace, partenaire Microsoft Action Pack. Le projet AP3 simule son évolution avec une implantation à Mulhouse et la nécessité d'une infrastructure interconnectée robuste.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <div class="ap-section-title"><span class="title-icon">🎯</span> Objectifs du projet</div>
+                <div class="section-content">
+                    <div class="objective-rows">
+                        <div class="objective-row">
+                            <span class="obj-label">🌐 Interconnexion :</span>
+                            <p class="obj-desc">Mettre en place une liaison WAN chiffrée entre les sites A (Strasbourg) et B (Mulhouse) via VPN IPsec/OpenVPN</p>
+                        </div>
+                        <div class="objective-row">
+                            <span class="obj-label">🧩 Uniformisation SI :</span>
+                            <p class="obj-desc">Harmoniser plan d'adressage, nommage, comptes utilisateurs et politiques de sécurité sur les deux sites</p>
+                        </div>
+                        <div class="objective-row">
+                            <span class="obj-label">🖥️ Haute disponibilité :</span>
+                            <p class="obj-desc">Déployer 4 serveurs AD/DNS/DHCP + DFS/DFSR, DHCP de basculement et partages SMB redondés</p>
+                        </div>
+                        <div class="objective-row">
+                            <span class="obj-label">💾 Sauvegarde :</span>
+                            <p class="obj-desc">Configurer la sauvegarde complète des serveurs sur stockage SAN iSCSI et activer les clichés instantanés</p>
+                        </div>
+                        <div class="objective-row">
+                            <span class="obj-label">📝 Livrables :</span>
+                            <p class="obj-desc">Fournir proposition technique/commerciale, schéma réseau, Gantt, fiche de situation pro et documentation d'exploitation</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <div class="ap-section-title"><span class="title-icon">💻</span> Environnement technique</div>
+                <div class="section-content">
+                    <div class="tech-cards-grid">
+                        <div class="tech-card-mini">
+                            <div class="tcard-label">🖥️ Virtualisation</div>
+                            <div class="tcard-value">VMware (VMNET1 site A / VMNET2 site B)</div>
+                        </div>
+                        <div class="tech-card-mini">
+                            <div class="tcard-label">💿 Systèmes</div>
+                            <div class="tcard-value">Windows Server 2022, pfSense/OPNsense, Windows 11 Pro</div>
+                        </div>
+                        <div class="tech-card-mini">
+                            <div class="tcard-label">⚙️ Services</div>
+                            <div class="tcard-value">AD DS, DNS, DHCP, DFS, DFSR, Shadow Copy, iSCSI</div>
+                        </div>
+                        <div class="tech-card-mini">
+                            <div class="tcard-label">🌐 Réseaux</div>
+                            <div class="tcard-value">Site A: 192.168.100.0/24, Site B: 192.168.200.0/24</div>
+                        </div>
+                        <div class="tech-card-mini">
+                            <div class="tcard-label">🛠️ Outils annexes</div>
+                            <div class="tcard-value">Visio/Draw.io, GanttProject, VMware, documentation technique</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <div class="ap-section-title"><span class="title-icon">📋</span> Étapes de réalisation</div>
+                <div class="section-content">
+                    <div class="timeline-steps">
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Analyse du CdC AP3 et découpage du projet en lots 1 à 4</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Conception du schéma inter-sites avec 2 routeurs/pare-feu et 4 serveurs de production</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Mise en place du VPN site-à-site et validation de la connectivité entre LAN A et LAN B</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Déploiement des contrôleurs de domaine IFIDE.LAN et configuration DNS/DHCP</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Application des consignes AD/GPO (UO Strasbourg/Mulhouse, groupes, restrictions)</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Configuration DFS/DFSR avec espace \\ifide.lan\\intranet répliqué sur 4 cibles</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Intégration du stockage iSCSI pour sauvegardes complètes et Shadow Copy</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Ajout de postes Windows 11 Pro sur chaque site et tests d'authentification</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Recette technique complète et rédaction de la documentation finale</p></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <div class="ap-section-title"><span class="title-icon">🛡️</span> Sécurité mise en place</div>
+                <div class="section-content">
+                    <div class="security-rows">
+                        <div class="security-row"><span class="sec-dot blue"></span><span class="sec-label">VPN chiffré :</span><p class="sec-desc">Tunnel inter-sites chiffré selon les recommandations ANSSI IPsec pour protéger les flux A↔B</p></div>
+                        <div class="security-row"><span class="sec-dot purple"></span><span class="sec-label">GPO de durcissement :</span><p class="sec-desc">Blocage PowerShell/CMD, restriction USB, interdiction panneau de configuration, fond d'écran imposé</p></div>
+                        <div class="security-row"><span class="sec-dot green"></span><span class="sec-label">Mots de passe :</span><p class="sec-desc">Politique minimale 12 caractères avec complexité et verrouillage après 3 échecs (30 min)</p></div>
+                        <div class="security-row"><span class="sec-dot cyan"></span><span class="sec-label">Contrôle des accès :</span><p class="sec-desc">Droits NTFS/partages par groupes (GRP1, GRP2), séparation stricte des données utilisateurs</p></div>
+                        <div class="security-row"><span class="sec-dot green"></span><span class="sec-label">Continuité :</span><p class="sec-desc">Redondance AD/DNS/DHCP/DFSR + sauvegardes SAN iSCSI pour soutenir une logique PCA</p></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <div class="ap-section-title"><span class="title-icon">🎓</span> Compétences du référentiel mobilisées</div>
+                <div class="section-content">
+                    <div class="competences-grid">
+                        <div class="competence-tag">Support systèmes des accès utilisateurs</div>
+                        <div class="competence-tag">Support réseau des accès utilisateurs</div>
+                        <div class="competence-tag">Maintenance des accès utilisateurs</div>
+                        <div class="competence-tag">Conception des infrastructures réseaux</div>
+                        <div class="competence-tag">Exploitation des services</div>
+                        <div class="competence-tag">Analyse de la demande</div>
+                        <div class="competence-tag">Choix d'une solution</div>
+                        <div class="competence-tag">Installation d'une solution d'infrastructure</div>
+                        <div class="competence-tag">Mise en production d'un service</div>
+                        <div class="competence-tag">Gestion des incidents et des demandes</div>
+                        <div class="competence-tag">Administration et supervision</div>
+                        <div class="competence-tag">Sécurisation des données numériques</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <div class="ap-section-title"><span class="title-icon">📁</span> Accéder aux documents</div>
+                <div class="section-content">
+                    <div class="doc-viewer-list">
+                        <div class="doc-viewer-card" id="doc-ap3-livrable">
+                            <div class="doc-viewer-header" onclick="toggleDocViewer('doc-ap3-livrable')">
+                                <span class="doc-viewer-title">📄 AP3 - Livrable de réponse au cahier des charges</span>
+                                <span class="doc-viewer-toggle">▼</span>
+                            </div>
+                            <div class="doc-viewer-body">
+                                <iframe src="../docs/LIVRABLE_2_Reponse_CDC_GROUPE_1_Etienne_Constant_Gil.pdf" class="doc-iframe"></iframe>
+                                <div class="doc-viewer-actions">
+                                    <a href="../docs/LIVRABLE_2_Reponse_CDC_GROUPE_1_Etienne_Constant_Gil.pdf" target="_blank" class="btn-doc open"><span class="doc-btn-icon">🔗</span> Ouvrir dans un nouvel onglet</a>
+                                    <a href="../docs/LIVRABLE_2_Reponse_CDC_GROUPE_1_Etienne_Constant_Gil.pdf" download class="btn-doc download"><span class="doc-btn-icon">⬇️</span> Télécharger</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="doc-viewer-card" id="doc-ap3-technique">
+                            <div class="doc-viewer-header" onclick="toggleDocViewer('doc-ap3-technique')">
+                                <span class="doc-viewer-title">📚 AP3 - Documentation technique complète</span>
+                                <span class="doc-viewer-toggle">▼</span>
+                            </div>
+                            <div class="doc-viewer-body">
+                                <iframe src="../docs/AP3-Gil-Etienne-Constant.pdf" class="doc-iframe"></iframe>
+                                <div class="doc-viewer-actions">
+                                    <a href="../docs/AP3-Gil-Etienne-Constant.pdf" target="_blank" class="btn-doc open"><span class="doc-btn-icon">🔗</span> Ouvrir dans un nouvel onglet</a>
+                                    <a href="../docs/AP3-Gil-Etienne-Constant.pdf" download class="btn-doc download"><span class="doc-btn-icon">⬇️</span> Télécharger</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="project-footer">
+                <a href="../index.html#projets" class="btn-back-large">← Retour à la liste des projets</a>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>© 2025 FOOS Constant</p>
+        </footer>
+    </main>
+    <script>
+        function toggleDocViewer(id) {
+            const card = document.getElementById(id);
+            card.classList.toggle('open');
+        }
+    </script>
+</body>
+</html>
+

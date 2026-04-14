@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>AP4 - Sécurité Civile - FOOS Constant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../favicon.png">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="sidebar-header">
+            <h1>FOOS Constant</h1>
+        </div>
+        <ul class="sidebar-menu">
+            <li><a href="../index.html#profil"><span class="menu-icon">|</span> Profil</a></li>
+            <li><a href="../index.html#formations"><span class="menu-icon">|</span> Formations</a></li>
+            <li><a href="../index.html#experiences"><span class="menu-icon">|</span> Expériences</a></li>
+            <li><a href="../index.html#projets" class="active"><span class="menu-icon">|</span> Projets</a></li>
+            <li><a href="../index.html#competences"><span class="menu-icon">|</span> Compétences</a></li>
+            <li><a href="../index.html#veille"><span class="menu-icon">|</span> Veille Technologique</a></li>
+            <li><a href="../index.html#contact"><span class="menu-icon">|</span> Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <div class="project-page">
+            <div class="project-header">
+                <a href="../index.html#projets" class="btn-back">← Retour aux projets</a>
+                <h1>AP4 – SÉCURITÉ CIVILE : Résilience SIC et accès distant sécurisé</h1>
+                <p class="project-subtitle">Conception et maquettage d'une solution assurant la continuité opérationnelle des centres de crise préfectoraux : redondance WAN, supervision, VPN Road Warrior, services métiers hébergés localement.</p>
+            </div>
+
+            <section class="project-section">
+                <div class="ap-section-title"><span class="title-icon">ℹ️</span> Contexte du projet</div>
+                <div class="section-content">
+                    <div class="context-top-grid">
+                        <div class="context-top-card">
+                            <div class="ctx-label">📍 Lieu</div>
+                            <div class="ctx-value">Contexte Préfecture / SIDSIC – Centre Opérationnel Départemental (COD)</div>
+                        </div>
+                        <div class="context-top-card">
+                            <div class="ctx-label">📅 Période</div>
+                            <div class="ctx-value">21/01/2025 au 15/04/2025 – durée 6 semaines</div>
+                        </div>
+                        <div class="context-top-card">
+                            <div class="ctx-label">🏫 Formation</div>
+                            <div class="ctx-value">BTS SIO SISR – AP4 Sécurité Civile (IFIDE)</div>
+                        </div>
+                    </div>
+
+                    <div class="context-info-row">
+                        <div class="ctx-row-label">⚠️ Pourquoi ce projet ?</div>
+                        <p class="ctx-row-value">Les retours d'expérience en cellule de crise montrent des indisponibilités récurrentes d'Internet et de téléphonie. L'objectif est d'augmenter la résilience du système d'information et de garantir l'accès aux outils métiers, y compris depuis le terrain, avec un niveau de sécurité adapté aux missions de sécurité civile.</p>
+                    </div>
+
+                    <div class="context-info-row">
+                        <div class="ctx-row-label">👤 Notre mission</div>
+                        <p class="ctx-row-value">En trinôme, nous avons construit une proposition technique puis une maquette opérationnelle : haute disponibilité réseau, annuaire AD, services locaux (messagerie, VoIP), supervision et accès distant sécurisé via OpenVPN Road Warrior.</p>
+                    </div>
+
+                    <div class="context-info-row">
+                        <div class="ctx-row-label">🏢 Contexte métier</div>
+                        <p class="ctx-row-value">Le projet s'inscrit dans l'environnement de la DGSCGC et du SIDSIC, acteurs clés de la gestion de crise en préfecture. L'enjeu est d'assurer la continuité des communications, l'aide à la décision et la coordination des interventions en toutes circonstances.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <div class="ap-section-title"><span class="title-icon">🎯</span> Objectifs du projet</div>
+                <div class="section-content">
+                    <div class="objective-rows">
+                        <div class="objective-row">
+                            <span class="obj-label">🌐 Continuité réseau :</span>
+                            <p class="obj-desc">Simuler une architecture tolérante aux pannes avec 2 routeurs et redondance d'accès Internet (maquette adaptée à l'environnement virtuel)</p>
+                        </div>
+                        <div class="objective-row">
+                            <span class="obj-label">🧩 Services critiques :</span>
+                            <p class="obj-desc">Déployer AD principal/secondaire, messagerie et VoIP sur infrastructure locale, avec zone DMZ contrôlée</p>
+                        </div>
+                        <div class="objective-row">
+                            <span class="obj-label">🔐 Mobilité sécurisée :</span>
+                            <p class="obj-desc">Mettre en place un accès distant OpenVPN Road Warrior pour les agents de terrain vers les ressources internes</p>
+                        </div>
+                        <div class="objective-row">
+                            <span class="obj-label">📊 Supervision :</span>
+                            <p class="obj-desc">Installer un outil de monitoring avec historisation des pannes et alertes e-mail vers les administrateurs</p>
+                        </div>
+                        <div class="objective-row">
+                            <span class="obj-label">📝 Documentation :</span>
+                            <p class="obj-desc">Rédiger un rapport de clôture et une documentation technique complète réutilisable pour l'épreuve E5</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <div class="ap-section-title"><span class="title-icon">💻</span> Environnement technique</div>
+                <div class="section-content">
+                    <div class="tech-cards-grid">
+                        <div class="tech-card-mini">
+                            <div class="tcard-label">🖥️ Virtualisation</div>
+                            <div class="tcard-value">Maquette virtualisée multi-réseaux (LAN, DMZ, WAN simulé)</div>
+                        </div>
+                        <div class="tech-card-mini">
+                            <div class="tcard-label">💿 Systèmes</div>
+                            <div class="tcard-value">Windows Server, Windows 10 Pro x64, pare-feu virtuels</div>
+                        </div>
+                        <div class="tech-card-mini">
+                            <div class="tcard-label">⚙️ Services</div>
+                            <div class="tcard-value">AD DS, DNS, messagerie, VoIP, supervision</div>
+                        </div>
+                        <div class="tech-card-mini">
+                            <div class="tcard-label">🌐 Accès</div>
+                            <div class="tcard-value">LAN interne, DMZ, VPN Road Warrior OpenVPN</div>
+                        </div>
+                        <div class="tech-card-mini">
+                            <div class="tcard-label">🛠️ Outils annexes</div>
+                            <div class="tcard-value">Gantt, schéma réseau, documentation d'architecture</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <div class="ap-section-title"><span class="title-icon">📋</span> Étapes de réalisation</div>
+                <div class="section-content">
+                    <div class="timeline-steps">
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Analyse des besoins SIDSIC et extraction des contraintes opérationnelles du COD</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Étude comparative des solutions (pare-feu, supervision, VPN, messagerie, VoIP)</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Conception de l'architecture cible : LAN, DMZ, flux autorisés et plan de filtrage</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Déploiement des deux contrôleurs AD et intégration des postes Windows 10 Pro</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Mise en place des services métiers locaux : messagerie et téléphonie IP</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Configuration d'une DMZ pour accès dégradé et exposition contrôlée des services</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Configuration OpenVPN Road Warrior pour l'accès distant sécurisé des agents</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Déploiement du monitoring avec alertes e-mail et suivi des indisponibilités</p></div>
+                        <div class="timeline-step"><span class="timeline-dot"></span><p class="ts-text">Recette technique, analyse prévisionnel vs réel et formalisation de la documentation</p></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <div class="ap-section-title"><span class="title-icon">🛡️</span> Sécurité mise en place</div>
+                <div class="section-content">
+                    <div class="security-rows">
+                        <div class="security-row"><span class="sec-dot blue"></span><span class="sec-label">Politique de filtrage :</span><p class="sec-desc">Règles de pare-feu explicites (source/destination/ports), logique de moindre privilège en LAN, DMZ et VPN</p></div>
+                        <div class="security-row"><span class="sec-dot purple"></span><span class="sec-label">Accès distant :</span><p class="sec-desc">OpenVPN RW pour agents terrain avec authentification préalable et segmentation des accès aux seuls services nécessaires</p></div>
+                        <div class="security-row"><span class="sec-dot green"></span><span class="sec-label">Hébergement local :</span><p class="sec-desc">Services critiques internes (messagerie, VoIP) pour conserver la maîtrise des données et de l'infrastructure</p></div>
+                        <div class="security-row"><span class="sec-dot cyan"></span><span class="sec-label">Supervision active :</span><p class="sec-desc">Détection des pannes routeurs/serveurs, journalisation, historique de disponibilité et alertes e-mail en temps réel</p></div>
+                        <div class="security-row"><span class="sec-dot green"></span><span class="sec-label">Résilience crise :</span><p class="sec-desc">Conception orientée continuité de service pour répondre aux contraintes opérationnelles de gestion de crise préfectorale</p></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <div class="ap-section-title"><span class="title-icon">🎓</span> Compétences du référentiel mobilisées</div>
+                <div class="section-content">
+                    <div class="competences-grid">
+                        <div class="competence-tag">Choix d'une solution</div>
+                        <div class="competence-tag">Mise en production d'un service</div>
+                        <div class="competence-tag">Exploitation des services</div>
+                        <div class="competence-tag">Évaluation de la qualité de service</div>
+                        <div class="competence-tag">Conception d'une infrastructure</div>
+                        <div class="competence-tag">Administration et supervision</div>
+                        <div class="competence-tag">Validation et documentation d'une solution d'accès</div>
+                        <div class="competence-tag">Procédures d'alerte associées au service</div>
+                        <div class="competence-tag">Sécurisation du système informatique</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-section">
+                <div class="ap-section-title"><span class="title-icon">📁</span> Accéder aux documents</div>
+                <div class="section-content">
+                    <div class="doc-viewer-list">
+                        <div class="doc-viewer-card" id="doc-ap4-technique">
+                            <div class="doc-viewer-header" onclick="toggleDocViewer('doc-ap4-technique')">
+                                <span class="doc-viewer-title">📚 AP4 - Documentation technique complète</span>
+                                <span class="doc-viewer-toggle">▼</span>
+                            </div>
+                            <div class="doc-viewer-body">
+                                <iframe src="../docs/AP4_Constant_Gil_Etienne.pdf" class="doc-iframe"></iframe>
+                                <div class="doc-viewer-actions">
+                                    <a href="../docs/AP4_Constant_Gil_Etienne.pdf" target="_blank" class="btn-doc open"><span class="doc-btn-icon">🔗</span> Ouvrir dans un nouvel onglet</a>
+                                    <a href="../docs/AP4_Constant_Gil_Etienne.pdf" download class="btn-doc download"><span class="doc-btn-icon">⬇️</span> Télécharger</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="project-footer">
+                <a href="../index.html#projets" class="btn-back-large">← Retour à la liste des projets</a>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>© 2025 FOOS Constant</p>
+        </footer>
+    </main>
+    <script>
+        function toggleDocViewer(id) {
+            const card = document.getElementById(id);
+            card.classList.toggle('open');
+        }
+    </script>
+</body>
+</html>
+
