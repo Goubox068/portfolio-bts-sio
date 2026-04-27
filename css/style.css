@@ -1305,6 +1305,24 @@ strong {
     box-shadow: 0 6px 20px rgba(34, 197, 94, 0.3);
 }
 
+.annex-links {
+    list-style: none;
+    padding: 1rem 1.5rem;
+    margin: 0;
+    display: grid;
+    gap: 0.5rem;
+}
+
+.annex-links a {
+    color: var(--primary-light);
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.annex-links a:hover {
+    text-decoration: underline;
+}
+
 /* Code styling */
 code {
     background: var(--bg-dark);
@@ -1441,6 +1459,16 @@ code {
     padding: 0.4rem 1rem;
     border-radius: 20px;
     font-size: 0.85rem;
+}
+
+.keyword-link {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.keyword-link:hover {
+    text-decoration: underline;
 }
 
 .articles-grid {
