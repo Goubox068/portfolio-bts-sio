@@ -1189,15 +1189,23 @@ strong {
 }
 
 /* Document Viewer */
-.e6-doc-columns {
+.e6-section-layout .e6-doc-columns {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1.5rem;
+    gap: 2rem;
     align-items: start;
 }
 
-.e6-doc-column h3 {
+.e6-section-layout .e6-doc-column h3 {
     margin-bottom: 1rem;
+}
+
+.e6-section-layout .doc-viewer-card {
+    border: 1px solid var(--border-color);
+}
+
+.e6-section-layout .doc-iframe {
+    height: 560px;
 }
 
 .doc-viewer-list {
@@ -1359,8 +1367,13 @@ code {
         width: 100%;
     }
 
-    .e6-doc-columns {
+    .e6-section-layout .e6-doc-columns {
         grid-template-columns: 1fr;
+        gap: 1.25rem;
+    }
+
+    .e6-section-layout .doc-iframe {
+        height: 480px;
     }
 }
 
