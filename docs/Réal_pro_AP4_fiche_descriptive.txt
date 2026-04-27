@@ -1,0 +1,107 @@
+BTS SERVICES INFORMATIQUES AUX ORGANISATIONS 	SESSION 2026
+ANNEXE VII-1-A : Fiche descriptive de réalisation professionnelle (recto)
+Épreuve E6 - Administration des systèmes et des réseaux (option SISR)
+DESCRIPTION D’UNE RÉALISATION PROFESSIONNELLE 	N° réalisation : (AP4)
+Nom, prénom : FOOS Constant 	N° candidat :
+Épreuve ponctuelle 	Contrôle en cours de formation 	Date : ...... / ...... /............
+Organisation support de la réalisation professionnelle
+Intitulé de la réalisation professionnelle :
+Résilience du système d’information et des accès réseau d’un Centre Opérationnel Départemental (cas
+Préfecture / SIDSIC – sécurité civile) : redondance des routeurs et de l’accès Internet, services d’annuaire,
+messagerie et téléphonie IP en local, zone démilitarisée, supervision avec alertes, et accès distant sécurisé
+(OpenVPN Road Warrior) — périmètre sans applicatif de gestion d’interventions type eBrigade (retiré de la
+maquette).
+Période de réalisation : Janvier 2025 – Avril 2025 	Lieu : IFIDE SUP’FORMATION ECKBOLSHEIM
+Modalité : 	Seul(e) 	En équipe  (projet mené en binôme selon le cahier des charges de l’AP4)
+Compétences travaillées
+Concevoir une solution d’infrastructure réseau
+Installer, tester et déployer une solution d’infrastructure réseau
+Exploiter, dépanner et superviser une solution d’infrastructure réseau
+Conditions de réalisation1 (ressources fournies, résultats attendus)
+Le projet AP4 portait sur l’amélioration de la résilience informatique d’un Centre Opérationnel Départemental
+(COD) et sur un accès distant sécurisé aux ressources métiers, dans un contexte inspiré du Service
+interministériel départemental des systèmes d’information et de communication (SIDSIC) et des enjeux de
+coordination de crise (ORSEC, organisation préfectorale — annexes 1, 3, 4 et cadre métier SIC — annexe 6).
+Les conditions de réalisation étaient les suivantes :
+- 	Respect du cahier des charges, du planning (lancement 21 janvier 2025, fin 15 avril 2025) et d’une approche
+« à moindre coût » avec proposition budgétaire cohérente (livrable 1)
+- 	Maquette virtualisée de l’ensemble des besoins avec mention écrite des écarts liés aux contraintes de
+l’environnement de laboratoire (dont limitation à un seul accès Internet en simulation lorsque imposé)
+- 	Mise en œuvre d’une haute disponibilité des routeurs et d’une logique de liaison Internet redondée
+(deux routeurs / deux accès Internet — modélisation conforme au besoin, simplifications documentées)
+- 	Déploiement de deux contrôleurs de domaine Active Directory (principal et secondaire) et intégration des
+postes clients Windows 10 Pro x64 au domaine
+- 	Messagerie électronique opérée en local, accessible depuis le LAN et depuis le VPN Road Warrior uniquement
+- 	Serveur et clients de téléphonie IP (VoIP) en local, usage depuis le LAN et depuis le VPN Road Warrior
+- 	Mise en place d’une DMZ pour l’hébergement contrôlé de services exposés (sans mise en œuvre de la solution
+eBrigade évoquée dans le sujet initial, retirée du périmètre fonctionnel retenu)
+- 	Mise en œuvre d’OpenVPN en mode Road Warrior pour l’accès distant (courriels, softphone, ressources
+internes autorisées)
+- 	Déploiement d’un outil de supervision / monitoring des serveurs et équipements critiques avec tableau de bord
+et alertes par courriel vers les administrateurs en cas d’incident ou d’indisponibilité
+- 	Exigence d’authentification Active Directory préalable à l’accès aux données applicatives ; règles de pare-feu
+associées ; documentation des flux (source, destination, ports, description) alignée sur une démarche de
+politique de filtrage structurée (annexe 2 — recommandations ANSSI NP politique de pare-feu)
+- 	Alimentation électrique ondulée (simulation / prise en compte cahier des charges), cible d’environ dix
+sessions utilisateurs simultanées, évaluation de l’impact de la VoIP sur le réseau
+- 	Livrables : proposition technique et commerciale (schéma réseau complet, tableau de configuration, tableau
+des flux, diagramme de Gantt, tâches, coûts), puis rapport de clôture et documentation technique de type mode
+d’emploi (livrable 2) ; recettage / démonstration de la solution
+1 En référence aux conditions de réalisation et ressources nécessaires du bloc « Administration des systèmes et des réseaux »
+prévues dans le référentiel de certification du BTS SIO.
+
+ANNEXE VII-1-A : Fiche descriptive de réalisation professionnelle
+(verso, éventuellement pages suivantes)
+Épreuve E6 - Administration des systèmes et des réseaux (option SISR)
+Description des ressources documentaires, matérielles et logicielles utilisées2 :
+- 	Sujet de l’AP4 « Sécurité civile » et annexes 1 à 6 (organigramme DGSCGC, note ANSSI sur la politique de
+pare-feu, plaquettes ORSEC / PZDSE / PSC, orientation métiers SIC)
+- 	Documentation officielle des éditeurs (systèmes d’exploitation serveur, pare-feu / VPN, supervision,
+messagerie, téléphonie IP selon les choix retenus dans le groupe)
+- 	Machines virtuelles (serveurs, routeurs/pare-feu, clients) sur hyperviseur de type VMware Workstation (ou
+équivalent conforme à l’environnement pédagogique)
+- 	Images ISO et installateurs nécessaires aux rôles déployés
+- 	Référentiels de bonnes pratiques (filtrage réseau, cloisonnement LAN/DMZ, téléphonie sur IP)
+Modalités d’accès aux productions3 et à leur documentation4
+- 	Productions : maquette virtualisée reproductible (fichiers de VM / export) et captures d’écran de validation
+jointes au rapport
+- 	Documentation : dossier de projet (livrables 1 et 2, schémas, tableaux d’adressage, matrices de flux pare-feu,
+procédures de test et d’exploitation) — lien ou emplacement : ..............................................................
+- 	Comptes : comptes du domaine Active Directory pour les tests utilisateurs ; comptes d’administration des
+équipements réseau, serveurs et outils de supervision selon la convention définie dans la documentation du
+groupe
+
+2 Les réalisations professionnelles sont élaborées dans un environnement technologique conforme à l’annexe II.E du référentiel
+du BTS SIO.
+3 Conformément au référentiel du BTS SIO « Dans tous les cas, les candidats doivent se munir des outils et ressources techniques
+nécessaires au déroulement de l’épreuve… »
+4 Lien vers la documentation complète, précisant et décrivant, si cela n’a été fait au verso de la fiche, la réalisation, par exemples
+schéma complet de réseau mis en place et configurations des services.
+
+Descriptif de la réalisation professionnelle, y compris les productions réalisées et schémas explicatifs
+Dans le cadre de l’AP4, j’ai participé à la réponse à un cas d’étude de sécurité civile visant à fiabiliser le système
+d’information d’un COD et à permettre aux agents d’accéder depuis le terrain, via un tunnel VPN, aux mêmes
+services « bureau » que sur site, dans une logique de souveraineté et d’hébergement local des données.
+La démarche a débuté par l’analyse de l’expression de besoins du SIDSIC (continuité télécoms et Internet en
+salle de crise, autonomie, contrôle des accès) et par la formalisation d’une architecture réseau multisegment
+(LAN utilisateurs, LAN serveurs, DMZ, interconnexions WAN simulées) avec politique de filtrage argumentée
+(inspiration des sections de règles recommandées par l’ANSSI — annexe 2).
+J’ai contribué à la conception puis au déploiement sur maquette virtuelle des briques suivantes : double
+contexte de routage/pare-feu pour matérialiser la redondance d’accès, double contrôleur de domaine Active
+Directory pour la résilience de l’authentification et de l’annuaire, intégration des postes Windows 10 Pro,
+services de messagerie et de téléphonie IP réservés au réseau interne et au VPN, et accès distant OpenVPN
+Road Warrior avec vérification des usages (messagerie, softphone, accès aux partages ou applications
+autorisés). La partie « gestion d’interventions / main courante » prévue initialement autour d’un applicatif type
+eBrigade n’a pas été intégrée : le périmètre fonctionnel a été recentré sur l’infrastructure, la sécurisation des
+flux et la qualité de service, conformément aux arbitrages pédagogiques.
+Sur le volet sécurité et exploitation, une DMZ a été conservée pour illustrer le principe d’exposition contrôlée
+de services sans mélanger les flux Internet et le cœur de réseau ; les règles de pare-feu ont été rédigées sous
+forme de tableau de flux (autorisé / interdit, protocoles, commentaires métier). Un outil de supervision avec
+historique d’indisponibilités et notifications par courriel a été installé et paramétré pour surveiller au minimum
+les routeurs et serveurs critiques.
+Les phases de test ont porté sur la disponibilité des services après bascule simulée, la cohérence des chemins
+réseau (LAN / DMZ / VPN), la qualité de la voix sur IP sous charge modeste, ainsi que sur la réception effective
+des alertes. Les écarts par rapport au déploiement « réel » (nombre de liens Internet simulés, performances,
+sécurisation renforcée possible en production) ont été listés dans le rapport de clôture. Enfin, j’ai participé à la
+rédaction des livrables (proposition avec schéma d’architecture complet, adressage, Gantt et estimation de coûts,
+puis documentation d’exploitation et compte rendu de recette).

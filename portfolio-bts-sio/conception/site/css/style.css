@@ -1189,6 +1189,17 @@ strong {
 }
 
 /* Document Viewer */
+.e6-doc-columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.e6-doc-column h3 {
+    margin-bottom: 1rem;
+}
+
 .doc-viewer-list {
     display: flex;
     flex-direction: column;
@@ -1238,6 +1249,10 @@ strong {
 
 .doc-viewer-card.open .doc-viewer-body {
     max-height: 800px;
+}
+
+.doc-viewer-card.open .doc-viewer-body.no-preview {
+    max-height: 240px;
 }
 
 .doc-iframe {
@@ -1342,6 +1357,10 @@ code {
     .btn-doc {
         min-width: auto;
         width: 100%;
+    }
+
+    .e6-doc-columns {
+        grid-template-columns: 1fr;
     }
 }
 
