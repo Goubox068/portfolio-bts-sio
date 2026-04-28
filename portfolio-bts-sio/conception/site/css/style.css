@@ -1260,7 +1260,8 @@ strong {
 }
 
 .doc-viewer-card.open .doc-viewer-body.no-preview {
-    max-height: 240px;
+    max-height: min(65vh, 520px);
+    overflow-y: auto;
 }
 
 .doc-iframe {
